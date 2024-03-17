@@ -1,0 +1,24 @@
+# Install Laravel 10
+	composer create-project laravel/laravel your-project-name "10.*"
+	cd your-project-name
+	cp .env.example .env
+	php artisan serve
+
+# Raja Ongkir
+	daftar akun untuk mendapatkan key
+	copy key raja ongkir ke .env
+
+# Siapkan controller untuk konsumsi api Raja Ongkir
+	buat kode controller
+	set route web
+
+# Siapkan controller untuk menampilkan formulirnya
+	php artisan make:controller OngkirController
+	buat file view
+	isi form dengan ajax
+	sampai mendapatkan value
+
+Mahasiswa :
+1. Mampu mengerti arsitektural dan alur pertukaran data.
+2. Dapat mempraktikkan teknik request data dengan CURL.
+3. Dapat menggunakan teknik inspect element untuk monitoring pertukaran data.

@@ -1,0 +1,17 @@
+Instruksi Tugas:
+	1. Lakukan migrate untuk tambah tabel 'province' yang sudah ada
+	2. Buat migrasi untuk tabel 'city' dengan kolom
+		- 'city_id' (int, increment, primary key)
+		- 'province_id' (int, foreign key yang merujuk ke 'province_id' pada tabel 'province')
+		- 'city_type' (string, 10, value: "Kabupaten" atau "Kota")
+		- 'city_name' (string, 50)
+		- 'created_at' (datetime, nullable)
+		- 'updated_at' (datetime, nullable)
+		- 'deleted_at' (datetime, nullable)
+	3. Buat model 'CityModel' dan pastikan memiliki relasi dengan model 'ProvinceModel'
+	4. Buat controller 'CityController' dengan method seperti pada controller 'ProvinceController'
+	5. Buat routes api untuk mengarahkan setiap route ke metode yang sesuai dalam 'CityController'
+
+Pengumpulan Tugas:
+	1. Upload ke github
+	2. Yang dikumpulkan dalam penugasan kali ini adalah link repository github yang dibuat
