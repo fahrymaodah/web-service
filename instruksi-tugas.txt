@@ -11,6 +11,7 @@ Instruksi Tugas:
 	3. Buat model 'CityModel' dan pastikan memiliki relasi dengan model 'ProvinceModel'
 	4. Buat controller 'CityController' dengan method seperti pada controller 'ProvinceController'
 	5. Buat routes api untuk mengarahkan setiap route ke metode yang sesuai dalam 'CityController'
+    6. Gunakan alat pengujian API seperti Postman untuk memastikan bahwa API berfungsi seperti yang diharapkan
 
 Pengumpulan Tugas:
 	1. Upload ke github
